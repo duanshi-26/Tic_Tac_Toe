@@ -1,10 +1,11 @@
-import { tictactoe } from './components/tictactoe'
+
+import { TicTacToe } from './components/tictactoe'
 import './index.css'
 function App() {
 
   return (
     <>
-      {tictactoe()}
+      <TicTacToe/>
     </>
   )
 }
